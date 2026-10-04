@@ -36,7 +36,7 @@ const COOKIE_TABLE = [
     category: "Analys & statistik",
     purpose:
       "Anonym besöksstatistik om hur webbplatsen används, för att vi ska kunna förbättra den.",
-    examples: "Vercel Analytics, Triad Analytics (anonymt sessions-ID)",
+    examples: "Vercel Analytics, egen besöksstatistik (anonymt sessions-ID)",
     consent: "Kräver samtycke",
   },
 ]
@@ -156,7 +156,7 @@ export default function CookiePolicyPage() {
             Kontakt
           </h2>
           <p className="mt-3 leading-relaxed text-stone-600">
-            Servera drivs av Triad Solutions. Har du frågor om cookies eller
+            Servera drivs av MCA Solutions AB (org.nr 559601-0016). Har du frågor om cookies eller
             hur vi behandlar personuppgifter är du välkommen att{" "}
             <Link
               href="/#contact"
