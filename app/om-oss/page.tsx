@@ -62,7 +62,7 @@ const ABOUT_FAQ = [
   {
     question: "Hur kommer jag i kontakt?",
     answer:
-      "Boka en kostnadsfri demo via vår kontaktsida, eller skicka mail till kontakt@triadsolutions.se. Vi svarar på svenska och engelska.",
+      "Boka en kostnadsfri demo via vår kontaktsida, eller skicka mail till kontakt@mcasolutions.se. Vi svarar på svenska och engelska.",
   },
 ]
 
@@ -204,10 +204,10 @@ export default function OmOssPage() {
             </a>
             . Frågor om Servera specifikt? Skriv till{" "}
             <a
-              href="mailto:kontakt@triadsolutions.se"
+              href="mailto:kontakt@mcasolutions.se"
               className="text-amber-700 hover:text-amber-800 underline-offset-4 hover:underline"
             >
-              kontakt@triadsolutions.se
+              kontakt@mcasolutions.se
             </a>{" "}
             eller{" "}
             <Link

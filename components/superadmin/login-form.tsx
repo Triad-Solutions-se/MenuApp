@@ -36,7 +36,7 @@ export function SuperadminLoginForm() {
           value={email}
           onChange={e => setEmail(e.target.value)}
           required
-          placeholder="superadmin@triadsolutions.se"
+          placeholder="superadmin@mcasolutions.se"
           className="bg-stone-800 border-stone-700 text-stone-100 placeholder-stone-500 focus:border-violet-500"
         />
       </div>

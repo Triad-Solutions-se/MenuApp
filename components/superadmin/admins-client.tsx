@@ -103,7 +103,7 @@ export function AdminsClient({ admins: initial, currentEmail }: Props) {
                 type="email"
                 value={email}
                 onChange={e => setEmail(e.target.value)}
-                placeholder="anna@triadsolutions.se"
+                placeholder="anna@mcasolutions.se"
                 required
               />
             </div>

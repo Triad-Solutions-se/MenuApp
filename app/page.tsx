@@ -792,10 +792,10 @@ function Contact() {
               </div>
               <h3 className="font-serif text-xl font-bold mb-1">Skriv till oss</h3>
               <a
-                href="mailto:kontakt@triadsolutions.se"
+                href="mailto:kontakt@mcasolutions.se"
                 className="text-amber-400 text-sm hover:underline"
               >
-                kontakt@triadsolutions.se
+                kontakt@mcasolutions.se
               </a>
             </div>
             <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
@@ -972,10 +972,10 @@ function PrivacyPolicyDialog() {
             <p>
               För att utöva dina rättigheter, kontakta oss på:{" "}
               <a
-                href="mailto:kontakt@triadsolutions.se"
+                href="mailto:kontakt@mcasolutions.se"
                 className="text-amber-600 hover:underline"
               >
-                kontakt@triadsolutions.se
+                kontakt@mcasolutions.se
               </a>
             </p>
           </section>
@@ -1133,10 +1133,10 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:kontakt@triadsolutions.se"
+                  href="mailto:kontakt@mcasolutions.se"
                   className="text-stone-400 text-sm hover:text-amber-400 transition-colors"
                 >
-                  kontakt@triadsolutions.se
+                  kontakt@mcasolutions.se
                 </a>
               </li>
             </ul>
