@@ -3,7 +3,7 @@ import { createServerSupabaseClient } from "@/lib/supabase/server"
 import { tenantUrl } from "@/lib/tenant"
 
 // Resolve the dashboard URL on the tenant's own subdomain for the currently
-// logged-in user. Used by the central login (servera.triadsolutions.se/login):
+// logged-in user. Used by the central login (servera.mcasolutions.se/login):
 // after authenticating we send the admin to their restaurant's subdomain.
 // Mirrors the row selection in the admin layout — an admin may belong to
 // several restaurants, so we take their first active membership.

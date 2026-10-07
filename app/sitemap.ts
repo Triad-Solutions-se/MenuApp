@@ -6,7 +6,7 @@ import { CITY_SLUGS } from "@/lib/seo/cities"
 import { RESTAURANT_TYPE_SLUGS } from "@/lib/seo/restaurant-types"
 import { tenantUrl } from "@/lib/tenant"
 
-const BASE_URL = "https://servera.triadsolutions.se"
+const BASE_URL = "https://servera.mcasolutions.se"
 
 export const revalidate = 3600
 

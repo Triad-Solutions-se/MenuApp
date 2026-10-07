@@ -218,7 +218,7 @@ export function MarketingShell({ children }: MarketingShellProps) {
           </div>
           <div className="flex flex-col gap-3 border-t border-stone-800 pt-6 text-xs text-stone-500 sm:flex-row sm:items-center sm:justify-between">
             <span>
-              © {new Date().getFullYear()} Servera — en del av Triad
+              © {new Date().getFullYear()} Servera — en del av MCA
               Solutions.
             </span>
             <div className="flex items-center gap-4">

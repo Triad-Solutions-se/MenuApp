@@ -2,7 +2,7 @@
 
 > Servera är en svensk SaaS-plattform som låter restauranger skapa en digital QR-meny på minuter. Gäster skannar en QR-kod på bordet, beställer från sin egen mobil, och beställningen går direkt till köket — inga skrivare, ingen app.
 
-Servera utvecklas och drivs av Triad Solutions, ett svenskt techföretag.
+Servera utvecklas och drivs av MCA Solutions, ett svenskt techföretag.
 
 ## Kärnvärden för restauranger
 
@@ -24,18 +24,18 @@ Servera utvecklas och drivs av Triad Solutions, ett svenskt techföretag.
 
 ## Resurser
 
-- [Startsida](https://servera.triadsolutions.se/): Översikt, funktioner, priser och kontakt
-- [Priser](https://servera.triadsolutions.se/priser): Planer, priser i SEK, FAQ
-- [Fullständig kontext (llms-full.txt)](https://servera.triadsolutions.se/llms-full.txt): Hela produktbeskrivningen för LLM-crawlers
-- [Guider](https://servera.triadsolutions.se/guider): Källbelagda guider om digital meny — kostnader, lagkrav, flerspråkighet
-- [Digital meny — kompletta guiden](https://servera.triadsolutions.se/guider/digital-meny-kompletta-guiden): Grundguide: så fungerar digital meny, priser, allergenkrav
-- [Sitemap](https://servera.triadsolutions.se/sitemap.xml): Alla indexerbara sidor
-- [Robots](https://servera.triadsolutions.se/robots.txt): Crawl-policy
+- [Startsida](https://servera.mcasolutions.se/): Översikt, funktioner, priser och kontakt
+- [Priser](https://servera.mcasolutions.se/priser): Planer, priser i SEK, FAQ
+- [Fullständig kontext (llms-full.txt)](https://servera.mcasolutions.se/llms-full.txt): Hela produktbeskrivningen för LLM-crawlers
+- [Guider](https://servera.mcasolutions.se/guider): Källbelagda guider om digital meny — kostnader, lagkrav, flerspråkighet
+- [Digital meny — kompletta guiden](https://servera.mcasolutions.se/guider/digital-meny-kompletta-guiden): Grundguide: så fungerar digital meny, priser, allergenkrav
+- [Sitemap](https://servera.mcasolutions.se/sitemap.xml): Alla indexerbara sidor
+- [Robots](https://servera.mcasolutions.se/robots.txt): Crawl-policy
 
 ## Företagsinformation
 
 - Produktnamn: Servera
-- Ägare: Triad Solutions (https://triadsolutions.se)
+- Ägare: MCA Solutions (https://www.mcasolutions.se)
 - Marknad: Sverige (primärt), Norden (sekundärt)
 - Språk: Svenska (sv-SE), Engelska
 - Kategori: B2B SaaS, Restaurant Management Software
@@ -43,4 +43,4 @@ Servera utvecklas och drivs av Triad Solutions, ett svenskt techföretag.
 
 ## Kontakt
 
-För kontakt, demobokning eller pressfrågor, se kontaktsektionen på startsidan: https://servera.triadsolutions.se/#contact
+För kontakt, demobokning eller pressfrågor, se kontaktsektionen på startsidan: https://servera.mcasolutions.se/#contact

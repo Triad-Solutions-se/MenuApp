@@ -195,7 +195,7 @@ export default function PriserPage() {
           <p className="text-stone-600 text-lg leading-relaxed">
             Inga dolda avgifter. Inga provisioner per beställning. En fast
             månadskostnad — behåll varje krona du tjänar. Servera är digital meny
-            och QR-beställning för svenska restauranger, byggt i Sverige av Triad
+            och QR-beställning för svenska restauranger, byggt i Sverige av MCA
             Solutions.
           </p>
         </div>
@@ -371,7 +371,7 @@ export default function PriserPage() {
 
       <footer className="border-t border-stone-800 bg-stone-950 text-stone-500 py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-          <div>© {new Date().getFullYear()} Servera — en del av Triad Solutions.</div>
+          <div>© {new Date().getFullYear()} Servera — en del av MCA Solutions.</div>
           <Link href="/" className="hover:text-stone-300 transition-colors">
             ← Tillbaka till startsidan
           </Link>

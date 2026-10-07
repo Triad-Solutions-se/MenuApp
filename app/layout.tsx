@@ -23,7 +23,7 @@ const playfair = Playfair_Display({
   variable: "--font-playfair",
 })
 
-const SITE_URL = "https://servera.triadsolutions.se"
+const SITE_URL = "https://servera.mcasolutions.se"
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -46,11 +46,11 @@ export const metadata: Metadata = {
     "digital menytavla",
     "menyhantering restaurang",
     "Servera",
-    "Triad Solutions",
+    "MCA Solutions",
   ],
-  authors: [{ name: "Triad Solutions", url: "https://triadsolutions.se" }],
-  creator: "Triad Solutions",
-  publisher: "Triad Solutions",
+  authors: [{ name: "MCA Solutions", url: "https://www.mcasolutions.se" }],
+  creator: "MCA Solutions",
+  publisher: "MCA Solutions",
   category: "Business Software",
   alternates: {
     canonical: "/",

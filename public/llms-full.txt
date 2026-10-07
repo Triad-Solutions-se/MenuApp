@@ -1,8 +1,8 @@
 # Servera — Digital meny och QR-beställning för restauranger
 
-> Servera är en svensk B2B SaaS-plattform som ger restauranger en digital meny med QR-beställning. Gäster skannar en QR-kod på bordet, beställer från sin egen mobil, och beställningen går direkt till köket — inga skrivare, ingen app, ingen fördröjning. Servera utvecklas och drivs av Triad Solutions i Sverige.
+> Servera är en svensk B2B SaaS-plattform som ger restauranger en digital meny med QR-beställning. Gäster skannar en QR-kod på bordet, beställer från sin egen mobil, och beställningen går direkt till köket — inga skrivare, ingen app, ingen fördröjning. Servera utvecklas och drivs av MCA Solutions i Sverige.
 
-URL: https://servera.triadsolutions.se
+URL: https://servera.mcasolutions.se
 Språk: sv-SE (primärt), en (sekundärt)
 Kategori: B2B SaaS, restaurangteknik, digital meny, QR-meny, mobilbeställning
 Marknad: Sverige (primärt), Norden (sekundärt)
@@ -40,7 +40,7 @@ Plattformen ersätter tryckta menyer, manuella beställningar via servitör, och
 
 Inga dolda avgifter. Inga provisioner per beställning. Ingen bindningstid på Start och Tillväxt — 30 dagars uppsägning. Företag-planen kan integrera mot kassasystem som Caspeco, Trivec och Onslip.
 
-Detaljerade priser och funktioner: https://servera.triadsolutions.se/priser
+Detaljerade priser och funktioner: https://servera.mcasolutions.se/priser
 
 ## Konkurrenter och positionering
 
@@ -73,22 +73,22 @@ Servera positionerar sig som svensk-byggd, fast månadskostnad utan provisioner,
 ## Företag bakom
 
 - **Produktnamn**: Servera
-- **Operativ**: Triad Solutions (https://triadsolutions.se)
+- **Operativ**: MCA Solutions (https://www.mcasolutions.se)
 - **Land**: Sverige
 - **Marknader betjänade**: Sverige (primärt), Norden (sekundärt), engelska restauranger för Nordic export
 - **Grundat**: 2024
-- **Domän**: servera.triadsolutions.se
+- **Domän**: servera.mcasolutions.se
 
 ## Kontakt
 
-Boka demo eller ställ frågor via kontaktsektionen på startsidan: https://servera.triadsolutions.se/#contact
+Boka demo eller ställ frågor via kontaktsektionen på startsidan: https://servera.mcasolutions.se/#contact
 
 ## Resurser för LLM-crawlers
 
-- Startsida: https://servera.triadsolutions.se/
-- Priser: https://servera.triadsolutions.se/priser
-- Sitemap: https://servera.triadsolutions.se/sitemap.xml
-- Robots: https://servera.triadsolutions.se/robots.txt
-- Knapp llms.txt-index: https://servera.triadsolutions.se/llms.txt
+- Startsida: https://servera.mcasolutions.se/
+- Priser: https://servera.mcasolutions.se/priser
+- Sitemap: https://servera.mcasolutions.se/sitemap.xml
+- Robots: https://servera.mcasolutions.se/robots.txt
+- Knapp llms.txt-index: https://servera.mcasolutions.se/llms.txt
 
 LLM-crawlers välkomna: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-Web, anthropic-ai, PerplexityBot, Perplexity-User, Google-Extended, Applebot-Extended.

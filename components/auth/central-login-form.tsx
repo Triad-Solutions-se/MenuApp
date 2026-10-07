@@ -24,7 +24,7 @@ export function CentralLoginForm() {
       setLoading(false)
       return
     }
-    // The session cookie is now set on .triadsolutions.se (shared across every
+    // The session cookie is now set on .mcasolutions.se (shared across every
     // subdomain). Resolve which restaurant this admin belongs to and forward
     // them to that subdomain's dashboard.
     const dest = await getMyTenantDashboardUrl()

@@ -1,7 +1,7 @@
 // Creates a new restaurant tenant: restaurants row + Supabase Auth user + staff row.
 //
 // Usage: node scripts/create-tenant.mjs <subdomain> <name> <adminEmail> [adminPassword] [firstName] [lastName] [address]
-// Example: node scripts/create-tenant.mjs indianexpress "Indian Express" admin@indianexpress.triadsolutions.se
+// Example: node scripts/create-tenant.mjs indianexpress "Indian Express" admin@indianexpress.mcasolutions.se
 //
 // If adminPassword is omitted, a random one is generated and printed at the end.
 
@@ -133,7 +133,7 @@ console.log("✓ Tenant created.")
 console.log("")
 console.log(`  Restaurant ID : ${restaurantId}`)
 console.log(`  Subdomain     : ${subdomain}`)
-console.log(`  URL           : https://${subdomain}.triadsolutions.se`)
+console.log(`  URL           : https://${subdomain}.mcasolutions.se`)
 console.log(`  Admin email   : ${adminEmail}`)
 if (!adminPasswordArg && !userList.find(u => u.email?.toLowerCase() === adminEmail.toLowerCase())) {
   console.log(`  Admin password: ${adminPassword}`)

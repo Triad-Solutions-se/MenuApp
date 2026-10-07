@@ -1,6 +1,6 @@
 # Servera SEO Strategy & Implementation Plan
 
-**Domain:** servera.triadsolutions.se
+**Domain:** servera.mcasolutions.se
 **Market:** Sweden (primary), Nordics (secondary), English-speaking export (tertiary)
 **Audience:** Restaurants, cafés, pizzerias, bars, food trucks
 **Last updated:** 2026-04-27
@@ -157,7 +157,7 @@ Still to do:
 - Replace remaining `<img>` tags with `next/image` site-wide (currently only used in cart).
 - Set Core Web Vitals targets in CI: LCP <2.5 s, INP <200 ms, CLS <0.1. INP is the hardest 2026 target.
 - Marketing-only pages: convert anchor sections (`#features`, `#pricing`, `#how-it-works`) on the landing page into routed pages (`/funktioner`, `/priser`, `/sa-fungerar-det`) so each is independently indexable and linkable.
-- Decide on domain: `servera.triadsolutions.se` (subdomain) inherits some authority from the parent domain, but Google treats subdomains semi-independently. If the long-term brand is "Servera," buy `servera.se`, 301 from the subdomain. Clean Swedish ccTLD outranks subdomain.
+- Decide on domain: `servera.mcasolutions.se` (subdomain) inherits some authority from the parent domain, but Google treats subdomains semi-independently. If the long-term brand is "Servera," buy `servera.se`, 301 from the subdomain. Clean Swedish ccTLD outranks subdomain.
 
 ### 2.8 Backlink strategy
 
@@ -300,7 +300,7 @@ Baseline now (week 1) — most of these are at zero. By day 90 the realistic tar
 
 ## 6. Open decisions for the founder
 
-1. **Domain.** Stay on `servera.triadsolutions.se` (cheap, status quo) or buy `servera.se` and 301 (better long-term, ~150 SEK/year, mild migration risk). Recommendation: buy `servera.se`.
+1. **Domain.** Stay on `servera.mcasolutions.se` (cheap, status quo) or buy `servera.se` and 301 (better long-term, ~150 SEK/year, mild migration risk). Recommendation: buy `servera.se`.
 2. **Public menu indexation.** Default-on or default-off? Recommendation: opt-in by quality threshold (§2.4).
 3. **English variant.** Ship `/en` now or wait until Swedish content is mature? Recommendation: ship a thin English variant of the homepage + comparison pages now (helps Nordic export + LLM citations); defer cluster content to month 4.
 4. **Original research budget.** "State of Swedish Restaurant Tech 2026" needs a 200-restaurant survey ($3–5k for a panel + design). Recommendation: do it in month 3 — single biggest backlink generator available.

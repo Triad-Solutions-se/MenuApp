@@ -1,9 +1,9 @@
 import { tenantUrl } from "@/lib/tenant"
 
-export const SITE_URL = "https://servera.triadsolutions.se"
+export const SITE_URL = "https://servera.mcasolutions.se"
 export const SITE_NAME = "Servera"
-export const PUBLISHER_NAME = "Triad Solutions"
-export const PUBLISHER_URL = "https://triadsolutions.se"
+export const PUBLISHER_NAME = "MCA Solutions"
+export const PUBLISHER_URL = "https://www.mcasolutions.se"
 
 export function organizationSchema() {
   return {
@@ -11,7 +11,7 @@ export function organizationSchema() {
     "@type": "Organization",
     "@id": `${SITE_URL}/#organization`,
     name: SITE_NAME,
-    legalName: "Triad Solutions",
+    legalName: "MCA Solutions AB",
     url: SITE_URL,
     logo: {
       "@type": "ImageObject",

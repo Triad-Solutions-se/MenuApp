@@ -168,8 +168,8 @@ export const COMPARISONS: Record<string, ComparisonContent> = {
         body: "Vegan, vegetariskt, glutenfritt och alla gängse allergener kan markeras per rätt. Informationen visas tydligt för gästen i menyn.",
       },
       {
-        title: "Triad Solutions stöd i Sverige",
-        body: "Servera utvecklas och supportas i Sverige av Triad Solutions. Svensk support på svensk arbetstid, ingen tidszon-fördröjning.",
+        title: "MCA Solutions stöd i Sverige",
+        body: "Servera utvecklas och supportas i Sverige av MCA Solutions. Svensk support på svensk arbetstid, ingen tidszon-fördröjning.",
       },
     ],
     decisionGuide: [
@@ -508,7 +508,7 @@ COMPARISONS["servera-vs-flipdish"] = {
     },
     {
       title: "Svensk support på svensk arbetstid",
-      body: "Servera utvecklas och supportas i Sverige av Triad Solutions. Inga tidszon-fördröjningar, inga engelskspråkiga ärendeflöden — frågor besvaras på svenska under svensk kontorstid.",
+      body: "Servera utvecklas och supportas i Sverige av MCA Solutions. Inga tidszon-fördröjningar, inga engelskspråkiga ärendeflöden — frågor besvaras på svenska under svensk kontorstid.",
     },
     {
       title: "Lokalanpassat för svenska behov",
@@ -621,7 +621,7 @@ COMPARISONS["servera-vs-yumzi"] = {
   serveraStrengths: [
     {
       title: "Fast pris och svensk faktura",
-      body: "Servera kostar 549 kr/mån eller 999 kr/mån till fast pris. Faktura med svensk moms från Triad Solutions. Inga valutaväxlingar, inga oväntade prishöjningar från utländska valutaförändringar.",
+      body: "Servera kostar 549 kr/mån eller 999 kr/mån till fast pris. Faktura med svensk moms från MCA Solutions. Inga valutaväxlingar, inga oväntade prishöjningar från utländska valutaförändringar.",
     },
     {
       title: "Svensk support — utan tidszons-fördröjning",

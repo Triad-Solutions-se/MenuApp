@@ -3,7 +3,7 @@ import { headers } from "next/headers"
 import { createServerSupabaseClient } from "@/lib/supabase/server"
 import { AdminSidebar } from "@/components/admin/sidebar"
 import {
-  ROOT_DOMAIN,
+  rootDomainForHost,
   extractSubdomainFromHost,
   isTenantSubdomain,
   tenantUrl,
@@ -43,10 +43,9 @@ export default async function AdminLayout({ children }: { children: React.ReactN
   // are visiting, fall back to their first restaurant (we redirect there
   // a few lines down).
   const host = (await headers()).get("host")
-  const hostname = host?.split(":")[0].toLowerCase() ?? ""
-  const onTriadHost = hostname === ROOT_DOMAIN || hostname.endsWith(`.${ROOT_DOMAIN}`)
+  const onOwnHost = rootDomainForHost(host) !== null
   const hostSub = extractSubdomainFromHost(host)
-  const onTenant = onTriadHost && isTenantSubdomain(hostSub)
+  const onTenant = onOwnHost && isTenantSubdomain(hostSub)
 
   const matchingRow = onTenant
     ? rows.find((r) => r.restaurants?.subdomain === hostSub)
@@ -55,10 +54,10 @@ export default async function AdminLayout({ children }: { children: React.ReactN
   const restaurant = staffDataAny.restaurants
   if (!restaurant) redirect("/admin/login")
 
-  // On the triadsolutions.se host: if the user isn't a member of the tenant
+  // On our own domain: if the user isn't a member of the tenant
   // they are visiting, bounce them to a restaurant they DO have access to.
   // Local/preview hosts are left alone so dev still works.
-  if (onTriadHost && !matchingRow) {
+  if (onOwnHost && !matchingRow) {
     redirect(tenantUrl(restaurant.subdomain, "/admin/dashboard"))
   }
 

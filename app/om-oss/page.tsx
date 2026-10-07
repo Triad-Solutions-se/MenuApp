@@ -17,22 +17,22 @@ import {
 const PAGE_URL = `${SITE_URL}/om-oss`
 
 export const metadata: Metadata = {
-  title: "Om Servera — svensk QR-meny för restauranger | Triad Solutions",
+  title: "Om Servera — svensk QR-meny för restauranger | MCA Solutions",
   description:
-    "Servera är en svensk plattform för digital meny och QR-beställning, byggd och driven av Triad Solutions. Här är historien, varför vi finns och hur vi tänker kring restaurangteknik i Sverige.",
+    "Servera är en svensk plattform för digital meny och QR-beställning, byggd och driven av MCA Solutions. Här är historien, varför vi finns och hur vi tänker kring restaurangteknik i Sverige.",
   alternates: { canonical: PAGE_URL },
   openGraph: {
     type: "website",
     locale: "sv_SE",
     url: PAGE_URL,
     siteName: "Servera",
-    title: "Om Servera — svensk QR-meny från Triad Solutions",
+    title: "Om Servera — svensk QR-meny från MCA Solutions",
     description:
-      "Svensk QR-meny och digital meny för restauranger. Byggd av Triad Solutions i Sverige.",
+      "Svensk QR-meny och digital meny för restauranger. Byggd av MCA Solutions i Sverige.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Om Servera — svensk QR-meny från Triad Solutions",
+    title: "Om Servera — svensk QR-meny från MCA Solutions",
     description:
       "Svensk QR-meny och digital meny för restauranger.",
   },
@@ -42,7 +42,7 @@ const ABOUT_FAQ = [
   {
     question: "Vem står bakom Servera?",
     answer:
-      "Servera är en produkt från Triad Solutions, ett svenskt teknikbolag. All utveckling, drift och support sker i Sverige.",
+      "Servera är en produkt från MCA Solutions, ett svenskt teknikbolag. All utveckling, drift och support sker i Sverige.",
   },
   {
     question: "Var lagras restaurangens data?",
@@ -185,7 +185,7 @@ export default function OmOssPage() {
       <section className="py-14 sm:py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 space-y-6">
           <h2 className="font-serif text-3xl sm:text-4xl text-stone-950 font-bold tracking-tight">
-            Triad Solutions
+            MCA Solutions
           </h2>
           <p className="text-stone-700 text-base leading-[1.7]">
             Servera är en produkt från {PUBLISHER_NAME} — ett svenskt

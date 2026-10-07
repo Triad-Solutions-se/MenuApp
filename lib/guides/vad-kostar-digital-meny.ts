@@ -68,7 +68,7 @@ export const guide: Guide = {
     { question: "Vad kostar Servera?", answer: "549 kr/mån för Start (upp till 20 bord) och 999 kr/mån för Tillväxt (obegränsat antal bord). Fast pris utan provision per beställning; aktuella detaljer finns alltid på prissidan." },
   ],
   sources: [
-    { label: "Servera: priser", href: "https://servera.triadsolutions.se/priser" },
+    { label: "Servera: priser", href: "https://servera.mcasolutions.se/priser" },
     { label: "Papperstryck: priser för tryckta menyer", href: "https://www.papperstryck.se/menyer/" },
     { label: "Visita: Den svenska restaurangmarknaden — K4 2024 och K1 2025", href: "https://visita.se/app/uploads/2025/06/Restaurangrapport-K4-2024-och-K1-2025.pdf" },
   ],

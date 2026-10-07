@@ -1,11 +1,18 @@
 import { NextResponse, type NextRequest } from "next/server"
 import { updateSession } from "@/lib/supabase/middleware"
-import { extractSubdomainFromHost, isTenantSubdomain } from "@/lib/tenant"
+import { ROOT_DOMAIN, extractSubdomainFromHost, isLegacyHost, isTenantSubdomain } from "@/lib/tenant"
 
 export async function middleware(request: NextRequest) {
   const host = request.headers.get("host")
   const sub = extractSubdomainFromHost(host)
   const path = request.nextUrl.pathname
+
+  // Legacy *.triadsolutions.se → same subdomain + path on ROOT_DOMAIN.
+  // /api/* is left alone so Stripe/Swish callbacks and webhooks keep working.
+  if (sub && isLegacyHost(host) && !path.startsWith("/api")) {
+    const target = new URL(`${path}${request.nextUrl.search}`, `https://${sub}.${ROOT_DOMAIN}`)
+    return NextResponse.redirect(target, 308)
+  }
 
   let rewriteUrl: URL | null = null
   if (isTenantSubdomain(sub)) {

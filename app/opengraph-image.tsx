@@ -153,7 +153,7 @@ export default async function OgImage() {
               letterSpacing: "0.04em",
             }}
           >
-            servera.triadsolutions.se
+            servera.mcasolutions.se
           </div>
         </div>
       </div>
